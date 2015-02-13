@@ -433,7 +433,7 @@ $include-html-button-classes: $include-html-classes;
 // We use these to build padding for buttons.
 // $button-tny: rem-calc(10);
 // $button-sml: rem-calc(14);
-// $button-med: rem-calc(16);
+$button-med: rem-calc(19);
 // $button-lrg: rem-calc(18);
 
 // We use this to control the display property.
@@ -1414,7 +1414,7 @@ $topbar-height: rem-calc(64);
 // $topbar-link-text-transform: none;
 // $topbar-link-padding: ($topbar-height / 3);
 // $topbar-back-link-size: rem-calc(18);
-$topbar-link-dropdown-padding: rem-calc(60);
+// $topbar-link-dropdown-padding: rem-calc(20);
 // $topbar-button-font-size: 0.75rem;
 // $topbar-button-top: 7px;
 

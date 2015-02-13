@@ -70,8 +70,9 @@ nav.top-bar {
           background-color: transparent;
           > a {
             // background-color: red;
+            // line-height: .9em;
             @include starfox_font(1.5em, 300, $teal);
-            padding: 15px 10px 15px 40px;
+            padding: 12px 10px 16px 40px;
             text-align: left;
           }
         }
@@ -114,6 +115,7 @@ h1.desktop_logo a {
   }
 
   a.hero_button {
+    margin-top: 25px;
     border-bottom: 6px solid $dark-grey;
   }
 }
