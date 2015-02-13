@@ -1,0 +1,194 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,400);
+
+@import "partials/settings";
+@import "partials/foundation";
+@import "partials/mixins";
+
+html {
+  background-color: $white;
+}
+
+body {
+  background-color: $dark-grey;
+}
+
+h1, h2, h3, h4, h5, a, p {
+  letter-spacing: .02em;
+}
+
+/* Layout */
+
+header {
+  @media #{$small-up} {
+    border-top: 6px solid $teal;
+  }
+
+  @media #{$medium-up} {
+    background-color: $teal;
+    background-image: url('/images/header_bg.svg');
+    background-size: 170px auto;
+    background-repeat: repeat;
+    background-position: top center;
+
+    height: 240px;
+  }
+}
+
+nav.top-bar {
+  background-color: $dark-grey;
+
+  .toggle-topbar a {
+    margin-right: 20px;
+    background-image: url('/images/menu_icon.svg');
+    background-repeat: no-repeat;
+    background-size: 45px auto;
+    background-position: center right;
+  }
+
+  .title-area {
+    padding-left: 35px;
+    h1.mobile_logo a {
+      @include starfox_font(1.5em, 300, $teal);
+      text-align: left;
+      letter-spacing: .05em;
+      padding-left: 75px;
+      background-image: url('/images/logo.svg');
+      background-repeat: no-repeat;
+      background-size: 65px auto;
+      background-position: center left;
+      span {
+        font-size: 1em;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .top-bar-section {
+      ul {
+        li {
+          border-top: 1px solid $teal;
+          background-color: transparent;
+          > a {
+            // background-color: red;
+            @include starfox_font(1.5em, 300, $teal);
+            padding: 15px 10px 15px 40px;
+            text-align: left;
+          }
+        }
+      }
+    }
+
+  @media #{$medium-up} {
+    border-radius: 10px;
+  }
+}
+
+h1.desktop_logo a {
+  @media #{$medium-up} {
+    @include starfox_font(.8em, 400, $dark-grey);
+
+    span {
+      font-weight: 700;
+    }
+  }
+}
+
+.hero {
+  background-color: $teal;
+  padding-bottom: 7.3%;
+
+  .lead {
+    background-image: url('/images/ship.svg');
+    background-size: 320px auto;
+    background-repeat: no-repeat;
+    background-position: center -18px;
+    padding-top: 265px;
+    margin-bottom: 20px;
+
+    p {
+      @include starfox_font(1.85em, 300, $dark-grey);
+      span {
+        font-weight: 400;
+      }
+    }
+  }
+
+  a.hero_button {
+    border-bottom: 6px solid $dark-grey;
+  }
+}
+
+.deals {
+  margin-top: 60px;
+  background-color: $white;
+
+  .large_deal {
+    margin-bottom: 60px;
+    background-color: $grey;
+    border-radius: 6px;
+
+    h2 {
+      @include starfox_font(1.5em, 600, $white);
+      padding: 20px 0;
+      border-bottom: solid 1px $line-dark;
+    }
+    // .deal_description {
+    //   padding: 100px;
+    // }
+    // 
+    // 
+    .price {
+      border-top: solid 1px $line-light;
+      text-align: center;
+    }
+
+    h3 {
+      @include starfox_font(4.4em, 300, $white);
+      border-bottom: solid 10px $white;
+      display: inline-block;
+      margin-top: 32px;
+    }
+
+    p {
+      @include starfox_font(1em, 300, $white);
+      line-height: 1.4em;
+      letter-spacing: .04em;
+      padding: 40px 21%;
+
+    }
+  }
+}
+
+.more_deals_container {
+  background-color: $teal;
+  text-align: center;
+  padding: 21px 0;
+
+  .more_deals_mobile {
+    @include starfox_font(1.6em, 600, $white);
+    line-height: 44px;
+    background-image: url('/images/arrow.svg');
+    background-repeat: no-repeat;
+    background-size: 44px auto;
+    background-position: top right;
+    padding: 5px 66px;
+    // background-color: red;
+  }
+}
+
+footer {
+  background-color: $dark-grey;
+
+  p {
+    @include starfox_font(.9em, 300, $grey);
+    padding: 27px 85px;
+  }
+}
+
+
+
+/* TEMP NOTES:
+
+ rem-calc: 0 gutter :O
+
+*/
