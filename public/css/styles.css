@@ -2741,6 +2741,15 @@ body {
 h1, h2, h3, h4, h5, a, p {
   letter-spacing: .02em; }
 
+@media only screen and (max-width: 40em) {
+  .column, .columns {
+    padding-left: 4rem;
+    padding-right: 4rem; } }
+@media only screen and (min-width:40.063em) {
+  .column, .columns {
+    padding-left: 48px;
+    padding-right: 48px; } }
+
 /* Layout */
 @media only screen {
   header {
