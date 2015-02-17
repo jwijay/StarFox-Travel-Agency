@@ -26,6 +26,11 @@ h1, h2, h3, h4, h5, a, p {
     padding-left: 48px;
     padding-right: 48px;
   }
+
+  @media #{$large-up} {
+    padding-left: 23px;
+    padding-right: 23px;
+  }
 }
 
 /* Layout */
@@ -52,6 +57,11 @@ nav.top-bar {
   @media #{$medium-up} {
     text-align: center;
     margin: 12px 48px;
+  }
+
+  @media #{$large-up} {
+    max-width: 1100px;
+    margin: auto;
   }
 
   .toggle-topbar a {
@@ -142,8 +152,15 @@ h1.desktop_logo {
     border-radius: 7px;
   }
 
-  .lead {
+  @media #{$large-up} {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 38px;
+    max-width: 1100px;
+    margin: 78px auto 0;
+  }
 
+  .lead {
     background-image: url('/images/ship.svg');
     background-size: 320px auto;
     background-repeat: no-repeat;
@@ -156,6 +173,11 @@ h1.desktop_logo {
       span {
         font-weight: 400;
       }
+
+      @media #{$large-up} {
+        text-align: left;
+        font-size: 1.95em;
+      }
     }
 
     @media #{$medium-up} {
@@ -163,6 +185,15 @@ h1.desktop_logo {
       margin-top: -10px;
       padding-top: 196px;
       margin-bottom: 7px;
+    }
+
+    @media #{$large-up} {
+      padding-top: 65px;
+      padding-right: 36%;
+      margin-top: -25px;
+      margin-right: -15px;
+      float: left;
+      background-position: right -64px;
     }
 
   }
@@ -177,6 +208,11 @@ h1.desktop_logo {
       @media #{$medium-up} {
         width: 308px;
       }
+
+      @media #{$large-up} {
+        float: right;
+        margin-top: -9.4%;
+      }
     }
   }
 
@@ -186,9 +222,23 @@ h1.desktop_logo {
   margin-top: 60px;
   background-color: $white;
 
-  @media #{$medium-up} {
+  @media #{$medium-only} {
     margin-top: 48px;
+    // margin-left: 48px;
+    // margin-right: 48px;
+  }
 
+  .row {
+
+    @media #{$medium-only} {
+      max-width: 1185px;
+      margin: auto;
+    }
+
+    @media #{$large-up} {
+      max-width: 1146px;
+      margin: auto;
+    }
   }
 
   .large_deal {
@@ -201,8 +251,16 @@ h1.desktop_logo {
       margin-bottom: 50px;
     }
 
+    @media #{$large-up} {
+      margin-bottom: 44px;
+    }
+
     &:hover {
       background-color: #353535;
+    }
+
+    &.more_details:hover {
+      background-color: $grey;
     }
 
     h2 {
@@ -213,7 +271,12 @@ h1.desktop_logo {
         border-bottom: solid 1px $line-dark;
       }
 
-      @media #{$medium-up} {
+     @media #{$large-up} {
+        padding: 20px 0;
+        border-bottom: solid 1px $line-dark;
+     }
+
+      @media #{$medium-only} {
         text-align: left;
         margin-top: .2em;
         margin-bottom: .5em;
@@ -225,9 +288,14 @@ h1.desktop_logo {
       @media #{$small-only} {
         border-top: solid 1px $line-light;
       }
+  
+      @media #{$large-up} {
+        border-top: solid 1px $line-light;
+      }
+
       text-align: center;
 
-      @media #{$medium-up} {
+      @media #{$medium-only} {
         width: 46%;
         float: left;
         border-right: solid 1px $line-dark;
@@ -235,11 +303,16 @@ h1.desktop_logo {
     }
 
     .deal_description {
-      @media #{$medium-up} {
+      @media #{$medium-only} {
         width: 54%;
         float: right;
         border-left: solid 1px $line-light;
         padding: 65px 65px 66px 65px;
+      }
+
+      @media #{$large-up} {
+        padding: 0;
+        margin: 0;
       }
     }
 
@@ -251,8 +324,13 @@ h1.desktop_logo {
       @media #{$small-only} {
         margin-top: 32px;
       }
+
+      @media #{$large-up} {
+        margin-top: 32px;
+        font-size: 4.2em;
+      }
       
-      @media #{$medium-up} {
+      @media #{$medium-only} {
         margin: 50px;
         font-size: 4.2em;
       }
@@ -267,12 +345,69 @@ h1.desktop_logo {
         padding: 40px 21%;
       }
 
-      @media #{$medium-up} {
-        text-align: left;
+      @media #{$large-up} {
+        padding: 40px 11%;
       }
 
+      @media #{$medium-only} {
+        text-align: left;
+      }
+    }
+    
+    h4 {
+      @include starfox_font(1em, 600, $white);
+      padding: 28px 0 20px 0;
 
     }
+
+    .small_deal:nth-child(2) h4 {
+      border-top: solid 1px $line-light;
+    }
+
+    h5 {
+      @include starfox_font(2.6em, 300, $white);
+      line-height: .4em;
+      letter-spacing: .04em;
+      border-bottom: solid 1px $line-dark;
+      padding-bottom: 46px;
+
+    }
+
+    .small_deal {
+      &:first-child {
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+      }
+
+      transition: background-color 300ms ease-out;
+
+      &:hover {
+        background-color: $dark-grey;
+      }
+    }
+  }
+}
+
+.more_deals_container_desktop {
+  border-top: solid 1px $line-light;
+  padding: 11px 0;
+  transition: background-color 300ms ease-out;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  text-align: center;
+
+  &:hover {
+    background-color: $dark-grey;
+  }
+
+  .more_deals_desktop {
+      @include starfox_font(1.5em, 300, $white);
+      line-height: 44px;
+      background-image: url('/images/arrow.svg');
+      background-repeat: no-repeat;
+      background-size: 44px auto;
+      background-position: 165px top;
+      padding: 5px 66px 5px 25px;
   }
 }
 
@@ -289,7 +424,6 @@ h1.desktop_logo {
     background-size: 44px auto;
     background-position: top right;
     padding: 5px 66px;
-    // background-color: red;
   }
 }
 
@@ -300,8 +434,12 @@ footer {
     @include starfox_font(.9em, 300, $grey);
     padding: 27px 85px;
 
-    @media #{$medium-up} {
+    @media #{$medium-only} {
       padding: 35px 0 80px 0;
+    }
+
+    @media #{$large-up} {
+      padding: 33px 85px; 
     }
   }
 }

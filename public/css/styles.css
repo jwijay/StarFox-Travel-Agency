@@ -7,24 +7,24 @@ meta.foundation-mq-small {
   width: 0em; }
 
 meta.foundation-mq-small-only {
-  font-family: "/only screen and (max-width: 40em)/";
+  font-family: "/only screen and (max-width: 870px)/";
   width: 0em; }
 
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em; }
+  font-family: "/only screen and (min-width:871px)/";
+  width: 871px; }
 
 meta.foundation-mq-medium-only {
-  font-family: "/only screen and (min-width:40.063em) and (max-width:64em)/";
-  width: 40.063em; }
+  font-family: "/only screen and (min-width:871px) and (max-width:1200px)/";
+  width: 871px; }
 
 meta.foundation-mq-large {
-  font-family: "/only screen and (min-width:64.063em)/";
-  width: 64.063em; }
+  font-family: "/only screen and (min-width:1201px)/";
+  width: 1201px; }
 
 meta.foundation-mq-large-only {
-  font-family: "/only screen and (min-width:64.063em) and (max-width:90em)/";
-  width: 64.063em; }
+  font-family: "/only screen and (min-width:1201px) and (max-width:99999999em)/";
+  width: 1201px; }
 
 meta.foundation-mq-xlarge {
   font-family: "/only screen and (min-width:90.063em)/";
@@ -343,7 +343,7 @@ select {
     padding-right: 2.65625rem;
     float: left; } }
 
-@media only screen and (min-width:40.063em) {
+@media only screen and (min-width:871px) {
   .medium-push-0 {
     position: relative;
     left: 0%;
@@ -620,7 +620,7 @@ select {
     right: 91.66667%;
     left: auto; } }
 
-@media only screen and (min-width:64.063em) {
+@media only screen and (min-width:1201px) {
   .large-push-0 {
     position: relative;
     left: 0%;
@@ -1080,7 +1080,7 @@ button::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
-@media only screen and (min-width:40.063em) {
+@media only screen and (min-width:871px) {
   button, .button {
     display: inline-block; } }
 
@@ -1413,8 +1413,8 @@ label.error {
   color: #f04124; }
 
 meta.foundation-mq-topbar {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em; }
+  font-family: "/only screen and (min-width:871px)/";
+  width: 871px; }
 
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid {
@@ -1466,7 +1466,7 @@ meta.foundation-mq-topbar {
     padding-bottom: .4125rem;
     margin-bottom: 0;
     font-size: 0.75rem; }
-    @media only screen and (max-width: 40em) {
+    @media only screen and (max-width: 870px) {
       .top-bar .button, .top-bar button {
         position: relative;
         top: -1px; } }
@@ -1731,7 +1731,7 @@ meta.foundation-mq-topbar {
 .js-generated {
   display: block; }
 
-@media only screen and (min-width:40.063em) {
+@media only screen and (min-width:871px) {
   .top-bar {
     background: #2C2C2C;
     overflow: visible; }
@@ -1988,7 +1988,7 @@ meta.foundation-mq-topbar {
   .clearing-feature li.clearing-featured-img {
     display: block; }
 
-@media only screen and (min-width:40.063em) {
+@media only screen and (min-width:871px) {
   .clearing-main-prev, .clearing-main-next {
     position: absolute;
     height: 100%;
@@ -2094,7 +2094,7 @@ meta.foundation-mq-topbar {
     display: table-cell !important; } }
 
 /* medium displays */
-@media only screen and (min-width:40.063em) {
+@media only screen and (min-width:871px) {
   .hide-for-small-only, .show-for-small-up, .hide-for-small, .hide-for-small-down, .show-for-medium-only, .show-for-medium-up, .show-for-medium, .show-for-medium-down, .hide-for-large-only, .hide-for-large-up, .hide-for-large, .show-for-large-down, .hide-for-xlarge-only, .hide-for-xlarge-up, .hide-for-xlarge, .show-for-xlarge-down, .hide-for-xxlarge-only, .hide-for-xxlarge-up, .hide-for-xxlarge, .show-for-xxlarge-down {
     display: inherit !important; }
   .show-for-small-only, .hide-for-small-up, .show-for-small, .show-for-small-down, .hide-for-medium-only, .hide-for-medium-up, .hide-for-medium, .hide-for-medium-down, .show-for-large-only, .show-for-large-up, .show-for-large, .hide-for-large-down, .show-for-xlarge-only, .show-for-xlarge-up, .show-for-xlarge, .hide-for-xlarge-down, .show-for-xxlarge-only, .show-for-xxlarge-up, .show-for-xxlarge, .hide-for-xxlarge-down {
@@ -2123,7 +2123,7 @@ meta.foundation-mq-topbar {
     display: table-cell !important; } }
 
 /* large displays */
-@media only screen and (min-width:64.063em) {
+@media only screen and (min-width:1201px) {
   .hide-for-small-only, .show-for-small-up, .hide-for-small, .hide-for-small-down, .hide-for-medium-only, .show-for-medium-up, .hide-for-medium, .hide-for-medium-down, .show-for-large-only, .show-for-large-up, .show-for-large, .show-for-large-down, .hide-for-xlarge-only, .hide-for-xlarge-up, .hide-for-xlarge, .show-for-xlarge-down, .hide-for-xxlarge-only, .hide-for-xxlarge-up, .hide-for-xxlarge, .show-for-xxlarge-down {
     display: inherit !important; }
   .show-for-small-only, .hide-for-small-up, .show-for-small, .show-for-small-down, .show-for-medium-only, .hide-for-medium-up, .show-for-medium, .show-for-medium-down, .hide-for-large-only, .hide-for-large-up, .hide-for-large, .hide-for-large-down, .show-for-xlarge-only, .show-for-xlarge-up, .show-for-xlarge, .hide-for-xlarge-down, .show-for-xxlarge-only, .show-for-xxlarge-up, .show-for-xxlarge, .hide-for-xxlarge-down {
@@ -2414,7 +2414,7 @@ th.hide-for-touch {
 .text-justify {
   text-align: justify !important; }
 
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 870px) {
   .small-only-text-left {
     text-align: left !important; }
   .small-only-text-right {
@@ -2434,7 +2434,7 @@ th.hide-for-touch {
   .small-text-justify {
     text-align: justify !important; } }
 
-@media only screen and (min-width:40.063em) and (max-width:64em) {
+@media only screen and (min-width:871px) and (max-width:1200px) {
   .medium-only-text-left {
     text-align: left !important; }
   .medium-only-text-right {
@@ -2444,7 +2444,7 @@ th.hide-for-touch {
   .medium-only-text-justify {
     text-align: justify !important; } }
 
-@media only screen and (min-width:40.063em) {
+@media only screen and (min-width:871px) {
   .medium-text-left {
     text-align: left !important; }
   .medium-text-right {
@@ -2454,7 +2454,7 @@ th.hide-for-touch {
   .medium-text-justify {
     text-align: justify !important; } }
 
-@media only screen and (min-width:64.063em) and (max-width:90em) {
+@media only screen and (min-width:1201px) and (max-width:99999999em) {
   .large-only-text-left {
     text-align: left !important; }
   .large-only-text-right {
@@ -2464,7 +2464,7 @@ th.hide-for-touch {
   .large-only-text-justify {
     text-align: justify !important; } }
 
-@media only screen and (min-width:64.063em) {
+@media only screen and (min-width:1201px) {
   .large-text-left {
     text-align: left !important; }
   .large-text-right {
@@ -2716,7 +2716,7 @@ blockquote, blockquote p {
   border: none;
   padding: 0 0.0625rem; }
 
-@media only screen and (min-width:40.063em) {
+@media only screen and (min-width:871px) {
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4; }
   h1 {
@@ -2741,20 +2741,24 @@ body {
 h1, h2, h3, h4, h5, a, p {
   letter-spacing: .02em; }
 
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 870px) {
   .column, .columns {
     padding-left: 4rem;
     padding-right: 4rem; } }
-@media only screen and (min-width:40.063em) {
+@media only screen and (min-width:871px) {
   .column, .columns {
     padding-left: 48px;
     padding-right: 48px; } }
+@media only screen and (min-width:1201px) {
+  .column, .columns {
+    padding-left: 23px;
+    padding-right: 23px; } }
 
 /* Layout */
 @media only screen {
   header {
     border-top: 6px solid #94C9C8; } }
-@media only screen and (min-width:40.063em) {
+@media only screen and (min-width:871px) {
   header {
     background-color: #94C9C8;
     background-image: url('/images/header_bg.svg');
@@ -2765,10 +2769,14 @@ h1, h2, h3, h4, h5, a, p {
 
 nav.top-bar {
   background-color: #2C2C2C; }
-  @media only screen and (min-width:40.063em) {
+  @media only screen and (min-width:871px) {
     nav.top-bar {
       text-align: center;
       margin: 12px 48px; } }
+  @media only screen and (min-width:1201px) {
+    nav.top-bar {
+      max-width: 1100px;
+      margin: auto; } }
   nav.top-bar .toggle-topbar a {
     margin-right: 20px;
     background-image: url('/images/menu_icon.svg');
@@ -2792,14 +2800,14 @@ nav.top-bar {
       nav.top-bar .title-area h1.mobile_logo a span {
         font-size: 1em;
         font-weight: 600; }
-  @media only screen and (min-width:40.063em) {
+  @media only screen and (min-width:871px) {
     nav.top-bar .top-bar-section {
       display: inline-block; } }
   nav.top-bar .top-bar-section ul {
     background-color: #2C2C2C; }
     nav.top-bar .top-bar-section ul li {
       background-color: transparent; }
-      @media only screen and (max-width: 40em) {
+      @media only screen and (max-width: 870px) {
         nav.top-bar .top-bar-section ul li {
           border-top: 1px solid #94C9C8; } }
       nav.top-bar .top-bar-section ul li > a {
@@ -2809,12 +2817,12 @@ nav.top-bar {
         color: #94C9C8;
         padding: 12px 10px 16px 40px;
         text-align: left; }
-        @media only screen and (min-width:40.063em) {
+        @media only screen and (min-width:871px) {
           nav.top-bar .top-bar-section ul li > a {
             font-size: 1.08em; }
             nav.top-bar .top-bar-section ul li > a:hover {
               font-weight: 400; } }
-  @media only screen and (min-width:40.063em) {
+  @media only screen and (min-width:871px) {
     nav.top-bar {
       border-radius: 7px; } }
 
@@ -2836,11 +2844,18 @@ h1.desktop_logo {
 .hero {
   background-color: #94C9C8;
   padding-bottom: 7.3%; }
-  @media only screen and (min-width:40.063em) {
+  @media only screen and (min-width:871px) {
     .hero {
       margin: 78px 48px 0 48px;
       padding-bottom: 42px;
       border-radius: 7px; } }
+  @media only screen and (min-width:1201px) {
+    .hero {
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-bottom: 38px;
+      max-width: 1100px;
+      margin: 78px auto 0; } }
   .hero .lead {
     background-image: url('/images/ship.svg');
     background-size: 320px auto;
@@ -2855,47 +2870,80 @@ h1.desktop_logo {
       color: #2C2C2C; }
       .hero .lead p span {
         font-weight: 400; }
-    @media only screen and (min-width:40.063em) {
+      @media only screen and (min-width:1201px) {
+        .hero .lead p {
+          text-align: left;
+          font-size: 1.95em; } }
+    @media only screen and (min-width:871px) {
       .hero .lead {
         background-position: center -63px;
         margin-top: -10px;
         padding-top: 196px;
         margin-bottom: 7px; } }
+    @media only screen and (min-width:1201px) {
+      .hero .lead {
+        padding-top: 65px;
+        padding-right: 36%;
+        margin-top: -25px;
+        margin-right: -15px;
+        float: left;
+        background-position: right -64px; } }
   .hero .hero_action {
     text-align: center; }
     .hero .hero_action a.hero_button {
       margin-top: 25px;
       border-bottom: 6px solid #2C2C2C; }
-      @media only screen and (min-width:40.063em) {
+      @media only screen and (min-width:871px) {
         .hero .hero_action a.hero_button {
           width: 308px; } }
+      @media only screen and (min-width:1201px) {
+        .hero .hero_action a.hero_button {
+          float: right;
+          margin-top: -9.4%; } }
 
 .deals {
   margin-top: 60px;
   background-color: #FFFFFF; }
-  @media only screen and (min-width:40.063em) {
+  @media only screen and (min-width:871px) and (max-width:1200px) {
     .deals {
       margin-top: 48px; } }
+  @media only screen and (min-width:871px) and (max-width:1200px) {
+    .deals .row {
+      max-width: 1185px;
+      margin: auto; } }
+  @media only screen and (min-width:1201px) {
+    .deals .row {
+      max-width: 1146px;
+      margin: auto; } }
   .deals .large_deal {
     margin-bottom: 60px;
     background-color: #5E5E5E;
     border-radius: 6px;
     transition: background-color 300ms ease-out; }
-    @media only screen and (min-width:40.063em) {
+    @media only screen and (min-width:871px) {
       .deals .large_deal {
         margin-bottom: 50px; } }
+    @media only screen and (min-width:1201px) {
+      .deals .large_deal {
+        margin-bottom: 44px; } }
     .deals .large_deal:hover {
       background-color: #353535; }
+    .deals .large_deal.more_details:hover {
+      background-color: #5E5E5E; }
     .deals .large_deal h2 {
       text-align: center;
       font-size: 1.5em;
       font-weight: 600;
       color: #FFFFFF; }
-      @media only screen and (max-width: 40em) {
+      @media only screen and (max-width: 870px) {
         .deals .large_deal h2 {
           padding: 20px 0;
           border-bottom: solid 1px #434343; } }
-      @media only screen and (min-width:40.063em) {
+      @media only screen and (min-width:1201px) {
+        .deals .large_deal h2 {
+          padding: 20px 0;
+          border-bottom: solid 1px #434343; } }
+      @media only screen and (min-width:871px) and (max-width:1200px) {
         .deals .large_deal h2 {
           text-align: left;
           margin-top: .2em;
@@ -2903,20 +2951,27 @@ h1.desktop_logo {
           font-size: 1.55em; } }
     .deals .large_deal .price {
       text-align: center; }
-      @media only screen and (max-width: 40em) {
+      @media only screen and (max-width: 870px) {
         .deals .large_deal .price {
           border-top: solid 1px #6F6F6F; } }
-      @media only screen and (min-width:40.063em) {
+      @media only screen and (min-width:1201px) {
+        .deals .large_deal .price {
+          border-top: solid 1px #6F6F6F; } }
+      @media only screen and (min-width:871px) and (max-width:1200px) {
         .deals .large_deal .price {
           width: 46%;
           float: left;
           border-right: solid 1px #434343; } }
-    @media only screen and (min-width:40.063em) {
+    @media only screen and (min-width:871px) and (max-width:1200px) {
       .deals .large_deal .deal_description {
         width: 54%;
         float: right;
         border-left: solid 1px #6F6F6F;
         padding: 65px 65px 66px 65px; } }
+    @media only screen and (min-width:1201px) {
+      .deals .large_deal .deal_description {
+        padding: 0;
+        margin: 0; } }
     .deals .large_deal h3 {
       text-align: center;
       font-size: 4.4em;
@@ -2924,10 +2979,14 @@ h1.desktop_logo {
       color: #FFFFFF;
       border-bottom: solid 10px #FFFFFF;
       display: inline-block; }
-      @media only screen and (max-width: 40em) {
+      @media only screen and (max-width: 870px) {
         .deals .large_deal h3 {
           margin-top: 32px; } }
-      @media only screen and (min-width:40.063em) {
+      @media only screen and (min-width:1201px) {
+        .deals .large_deal h3 {
+          margin-top: 32px;
+          font-size: 4.2em; } }
+      @media only screen and (min-width:871px) and (max-width:1200px) {
         .deals .large_deal h3 {
           margin: 50px;
           font-size: 4.2em; } }
@@ -2938,12 +2997,60 @@ h1.desktop_logo {
       color: #FFFFFF;
       line-height: 1.4em;
       letter-spacing: .04em; }
-      @media only screen and (max-width: 40em) {
+      @media only screen and (max-width: 870px) {
         .deals .large_deal p {
           padding: 40px 21%; } }
-      @media only screen and (min-width:40.063em) {
+      @media only screen and (min-width:1201px) {
+        .deals .large_deal p {
+          padding: 40px 11%; } }
+      @media only screen and (min-width:871px) and (max-width:1200px) {
         .deals .large_deal p {
           text-align: left; } }
+    .deals .large_deal h4 {
+      text-align: center;
+      font-size: 1em;
+      font-weight: 600;
+      color: #FFFFFF;
+      padding: 28px 0 20px 0; }
+    .deals .large_deal .small_deal:nth-child(2) h4 {
+      border-top: solid 1px #6F6F6F; }
+    .deals .large_deal h5 {
+      text-align: center;
+      font-size: 2.6em;
+      font-weight: 300;
+      color: #FFFFFF;
+      line-height: .4em;
+      letter-spacing: .04em;
+      border-bottom: solid 1px #434343;
+      padding-bottom: 46px; }
+    .deals .large_deal .small_deal {
+      transition: background-color 300ms ease-out; }
+      .deals .large_deal .small_deal:first-child {
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px; }
+      .deals .large_deal .small_deal:hover {
+        background-color: #2C2C2C; }
+
+.more_deals_container_desktop {
+  border-top: solid 1px #6F6F6F;
+  padding: 11px 0;
+  transition: background-color 300ms ease-out;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  text-align: center; }
+  .more_deals_container_desktop:hover {
+    background-color: #2C2C2C; }
+  .more_deals_container_desktop .more_deals_desktop {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #FFFFFF;
+    line-height: 44px;
+    background-image: url('/images/arrow.svg');
+    background-repeat: no-repeat;
+    background-size: 44px auto;
+    background-position: 165px top;
+    padding: 5px 66px 5px 25px; }
 
 .more_deals_container {
   background-color: #94C9C8;
@@ -2969,9 +3076,12 @@ footer {
     font-weight: 300;
     color: #5E5E5E;
     padding: 27px 85px; }
-    @media only screen and (min-width:40.063em) {
+    @media only screen and (min-width:871px) and (max-width:1200px) {
       footer p {
         padding: 35px 0 80px 0; } }
+    @media only screen and (min-width:1201px) {
+      footer p {
+        padding: 33px 85px; } }
 
 /* TEMP NOTES:
 
