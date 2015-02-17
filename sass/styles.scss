@@ -177,6 +177,7 @@ h1.desktop_logo {
       @media #{$large-up} {
         text-align: left;
         font-size: 1.95em;
+        padding: 18px 25px 10px 25px;
       }
     }
 
@@ -443,11 +444,3 @@ footer {
     }
   }
 }
-
-
-
-/* TEMP NOTES:
-
- rem-calc: 0 gutter :O
-
-*/

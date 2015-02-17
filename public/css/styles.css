@@ -2873,7 +2873,8 @@ h1.desktop_logo {
       @media only screen and (min-width:1201px) {
         .hero .lead p {
           text-align: left;
-          font-size: 1.95em; } }
+          font-size: 1.95em;
+          padding: 18px 25px 10px 25px; } }
     @media only screen and (min-width:871px) {
       .hero .lead {
         background-position: center -63px;
@@ -3082,9 +3083,3 @@ footer {
     @media only screen and (min-width:1201px) {
       footer p {
         padding: 33px 85px; } }
-
-/* TEMP NOTES:
-
- rem-calc: 0 gutter :O
-
-*/
