@@ -72,6 +72,10 @@ nav.top-bar {
     background-position: center right;
   }
 
+  .toggle-topbar a:hover {
+    background-image: url('/images/menu_icon_white.svg');
+  }
+
   .title-area {
     padding-left: 35px;
     h1.mobile_logo a {
@@ -299,6 +303,8 @@ h1.desktop_logo {
       @media #{$medium-only} {
         width: 46%;
         float: left;
+        // this is hax!!! (for making the left separator line extend all the way down. holy poops.)
+        padding-bottom: 25px;
         border-right: solid 1px $line-dark;
       }
     }
@@ -416,6 +422,11 @@ h1.desktop_logo {
   background-color: $teal;
   text-align: center;
   padding: 21px 0;
+  transition: background-color 300ms ease-out;
+
+  &:hover {
+    background-color: darken($teal, 10%);
+  }
 
   .more_deals_mobile {
     @include starfox_font(1.6em, 600, $white);
@@ -424,7 +435,7 @@ h1.desktop_logo {
     background-repeat: no-repeat;
     background-size: 44px auto;
     background-position: top right;
-    padding: 5px 66px;
+    padding: 5px 66px 5px 0;
   }
 }
 

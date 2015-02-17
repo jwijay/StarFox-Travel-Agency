@@ -2783,6 +2783,8 @@ nav.top-bar {
     background-repeat: no-repeat;
     background-size: 45px auto;
     background-position: center right; }
+  nav.top-bar .toggle-topbar a:hover {
+    background-image: url('/images/menu_icon_white.svg'); }
   nav.top-bar .title-area {
     padding-left: 35px; }
     nav.top-bar .title-area h1.mobile_logo a {
@@ -2962,6 +2964,7 @@ h1.desktop_logo {
         .deals .large_deal .price {
           width: 46%;
           float: left;
+          padding-bottom: 25px;
           border-right: solid 1px #434343; } }
     @media only screen and (min-width:871px) and (max-width:1200px) {
       .deals .large_deal .deal_description {
@@ -3056,7 +3059,10 @@ h1.desktop_logo {
 .more_deals_container {
   background-color: #94C9C8;
   text-align: center;
-  padding: 21px 0; }
+  padding: 21px 0;
+  transition: background-color 300ms ease-out; }
+  .more_deals_container:hover {
+    background-color: #72b8b7; }
   .more_deals_container .more_deals_mobile {
     text-align: center;
     font-size: 1.6em;
@@ -3067,7 +3073,7 @@ h1.desktop_logo {
     background-repeat: no-repeat;
     background-size: 44px auto;
     background-position: top right;
-    padding: 5px 66px; }
+    padding: 5px 66px 5px 0; }
 
 footer {
   background-color: #2C2C2C; }
