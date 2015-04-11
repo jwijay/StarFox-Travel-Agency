@@ -1,0 +1,6 @@
+@mixin starfox_font($starfox_font_size: 1em, $starfox_font_weight: 300, $starfox_font_color: $white) {
+  text-align: center;
+  font-size: $starfox_font_size;
+  font-weight: $starfox_font_weight;
+  color: $starfox_font_color;
+}

@@ -1,0 +1,39 @@
+PLAN:
+
+MAKE THE NAV WARK
+  center
+  padding
+  z-index?
+
+MAKE HEADER APPEAR
+  logo
+  text
+
+MAKE HERO AREA
+  make logo on top
+  make find out more button schmaller
+
+MAKE DEAL #1, border right
+  h3, p with BORDER LEFT
+SAME WITH DEAL#2
+
+footer spacing
+
+
+////////
+MAKE HERO BOX
+  lead, left
+  ship + find out more, right
+    also same size
+
+3 DEALS COLUMNS
+  same styling as mobile
+
+BUT ONE FINAL MORE_DEALS THANG
+  h4, h5
+  MOAR DEALS button
+  ACTUALLY THEY'RE ALL LINKS
+
+HOVER FOR As
+  and NAV LIs
+
