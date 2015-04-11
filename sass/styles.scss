@@ -5,11 +5,12 @@
 @import "partials/mixins";
 
 html {
-  background-color: $white;
+  background-color: transparent;
 }
 
 body {
-  background-color: $white;
+  background-color: transparent;
+  transition: background-color 250ms ease-in-out;
 }
 
 h1, h2, h3, h4, h5, a, p {
@@ -225,7 +226,7 @@ h1.desktop_logo {
 
 .deals {
   margin-top: 60px;
-  background-color: $white;
+  background-color: transparent;
 
   @media #{$medium-only} {
     margin-top: 48px;

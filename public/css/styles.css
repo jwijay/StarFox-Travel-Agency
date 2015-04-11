@@ -2733,10 +2733,11 @@ blockquote, blockquote p {
     font-size: 1rem; } }
 
 html {
-  background-color: #FFFFFF; }
+  background-color: transparent; }
 
 body {
-  background-color: #FFFFFF; }
+  background-color: transparent;
+  transition: background-color 250ms ease-in-out; }
 
 h1, h2, h3, h4, h5, a, p {
   letter-spacing: .02em; }
@@ -2906,7 +2907,7 @@ h1.desktop_logo {
 
 .deals {
   margin-top: 60px;
-  background-color: #FFFFFF; }
+  background-color: transparent; }
   @media only screen and (min-width:871px) and (max-width:1200px) {
     .deals {
       margin-top: 48px; } }
